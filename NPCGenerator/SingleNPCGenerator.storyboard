@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NiC-hd-Fy5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SingleNPC GeneratorVC-->
+        <scene sceneID="ePW-Xh-IND">
+            <objects>
+                <viewController storyboardIdentifier="SingleNPCGeneratorVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NiC-hd-Fy5" customClass="SingleNPCGeneratorVC" customModule="NPCGenerator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eYE-qR-yrf"/>
+                        <viewControllerLayoutGuide type="bottom" id="5ZW-P2-W9m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ufe-2P-Vpq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="noc-vJ-VpG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wXv-eI-Ghz">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="xdA-Fi-qwD">
+                                                <rect key="frame" x="20" y="75" width="335" height="517"/>
+                                                <subviews>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="veB-7C-rtY" customClass="CRTextField" customModule="NPCGenerator" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hd3-q2-XgY" customClass="CRTextField" customModule="NPCGenerator" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="162.5" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l70-kz-LHP" customClass="CRTextField" customModule="NPCGenerator" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="324.5" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zwY-As-I4s" customClass="CRTextField" customModule="NPCGenerator" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="487" width="335" height="30"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="xdA-Fi-qwD" firstAttribute="leading" secondItem="wXv-eI-Ghz" secondAttribute="leading" constant="20" id="9fD-AT-Y12"/>
+                                            <constraint firstItem="xdA-Fi-qwD" firstAttribute="top" secondItem="wXv-eI-Ghz" secondAttribute="top" constant="75" id="Qb6-QF-mUL"/>
+                                            <constraint firstAttribute="bottom" secondItem="xdA-Fi-qwD" secondAttribute="bottom" constant="75" id="T3n-FN-ueH"/>
+                                            <constraint firstAttribute="trailing" secondItem="xdA-Fi-qwD" secondAttribute="trailing" constant="20" id="hpD-24-sUQ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="wXv-eI-Ghz" firstAttribute="top" secondItem="noc-vJ-VpG" secondAttribute="top" id="0NX-zh-Bw8"/>
+                                    <constraint firstAttribute="bottom" secondItem="wXv-eI-Ghz" secondAttribute="bottom" id="0hc-el-2iK"/>
+                                    <constraint firstAttribute="trailing" secondItem="wXv-eI-Ghz" secondAttribute="trailing" id="1uQ-0X-8ol"/>
+                                    <constraint firstItem="wXv-eI-Ghz" firstAttribute="centerX" secondItem="noc-vJ-VpG" secondAttribute="centerX" id="cxl-px-cKR"/>
+                                    <constraint firstItem="wXv-eI-Ghz" firstAttribute="leading" secondItem="noc-vJ-VpG" secondAttribute="leading" id="fZ9-F6-OhL"/>
+                                    <constraint firstItem="wXv-eI-Ghz" firstAttribute="centerY" secondItem="noc-vJ-VpG" secondAttribute="centerY" id="hJ7-sw-G8o"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="noc-vJ-VpG" firstAttribute="leading" secondItem="ufe-2P-Vpq" secondAttribute="leading" id="7he-ce-VWS"/>
+                            <constraint firstItem="noc-vJ-VpG" firstAttribute="top" secondItem="ufe-2P-Vpq" secondAttribute="top" id="Het-H9-W6D"/>
+                            <constraint firstItem="5ZW-P2-W9m" firstAttribute="top" secondItem="noc-vJ-VpG" secondAttribute="bottom" id="UuH-D7-7BB"/>
+                            <constraint firstAttribute="trailing" secondItem="noc-vJ-VpG" secondAttribute="trailing" id="lhb-fO-bAb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gXR-k9-OxS"/>
+                    <connections>
+                        <outlet property="alignmentTextField" destination="l70-kz-LHP" id="OAz-av-S5V"/>
+                        <outlet property="genderTextField" destination="hd3-q2-XgY" id="eZ8-90-MTi"/>
+                        <outlet property="occupationTextField" destination="zwY-As-I4s" id="lpj-d1-Vyr"/>
+                        <outlet property="raceTextField" destination="veB-7C-rtY" id="Efd-cz-uOU"/>
+                        <outlet property="scrollView" destination="noc-vJ-VpG" id="SIE-uJ-0d4"/>
+                        <outlet property="stackView" destination="xdA-Fi-qwD" id="4LU-am-st3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vhd-4F-uBq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2367" y="-175"/>
+        </scene>
+    </scenes>
+</document>

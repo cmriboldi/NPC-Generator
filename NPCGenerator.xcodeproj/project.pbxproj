@@ -7,46 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E25A6F51F50ED6C007ADD0F /* MDCButton+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E25A6F41F50ED6C007ADD0F /* MDCButton+Custom.swift */; };
+		5E30B24B1F6DBFA900033FFC /* Occupation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B24A1F6DBFA900033FFC /* Occupation.swift */; };
+		5E30B24D1F6DC63400033FFC /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B24C1F6DC63400033FFC /* History.swift */; };
+		5E30B24F1F6DD09300033FFC /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B24E1F6DD09300033FFC /* Appearance.swift */; };
+		5E30B2511F6DD4D800033FFC /* Talent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B2501F6DD4D800033FFC /* Talent.swift */; };
+		5E30B2531F6DD89F00033FFC /* Mannerism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B2521F6DD89F00033FFC /* Mannerism.swift */; };
+		5E30B2551F6DD9B400033FFC /* Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B2541F6DD9B400033FFC /* Interaction.swift */; };
+		5E30B2571F6DDB2600033FFC /* Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B2561F6DDB2600033FFC /* Alignment.swift */; };
+		5E30B2591F6DDED200033FFC /* Ideal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B2581F6DDED200033FFC /* Ideal.swift */; };
+		5E30B25B1F6DDFC400033FFC /* Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B25A1F6DDFC400033FFC /* Bond.swift */; };
+		5E30B25D1F6DE17A00033FFC /* Flaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B25C1F6DE17A00033FFC /* Flaw.swift */; };
+		5E30B2611F6DE53500033FFC /* CombatStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B2601F6DE53500033FFC /* CombatStats.swift */; };
+		5E30B2631F6DE60200033FFC /* AbilityScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B2621F6DE60200033FFC /* AbilityScore.swift */; };
+		5E30B2651F6DEB2700033FFC /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30B2641F6DEB2700033FFC /* Gender.swift */; };
+		5E39C9031F68D8D900089318 /* DisplayNPC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E39C9021F68D8D900089318 /* DisplayNPC.storyboard */; };
+		5E39C9061F68D95C00089318 /* DisplayNPCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E39C9051F68D95C00089318 /* DisplayNPCVC.swift */; };
+		5E3ED0161F47B455004A416E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ED0151F47B455004A416E /* Default-568h@2x.png */; };
 		5E4A07211F42769500196FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4A07201F42769500196FF0 /* AppDelegate.swift */; };
-		5E4A07231F42769500196FF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4A07221F42769500196FF0 /* ViewController.swift */; };
-		5E4A07261F42769500196FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4A07241F42769500196FF0 /* Main.storyboard */; };
+		5E4A07231F42769500196FF0 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4A07221F42769500196FF0 /* MainVC.swift */; };
 		5E4A07281F42769500196FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4A07271F42769500196FF0 /* Assets.xcassets */; };
 		5E4A072B1F42769500196FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4A07291F42769500196FF0 /* LaunchScreen.storyboard */; };
-		5E4A07361F42769500196FF0 /* NPCGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4A07351F42769500196FF0 /* NPCGeneratorTests.swift */; };
-		5E4A07411F42769500196FF0 /* NPCGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4A07401F42769500196FF0 /* NPCGeneratorUITests.swift */; };
+		5E536A511F6B2FD5006D06B0 /* RandomNPCGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E536A501F6B2FD5006D06B0 /* RandomNPCGenerator.swift */; };
+		5E536A531F6B3077006D06B0 /* NPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E536A521F6B3077006D06B0 /* NPC.swift */; };
+		5E536A561F6B320E006D06B0 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E536A551F6B320E006D06B0 /* Race.swift */; };
+		5E536A581F6B379F006D06B0 /* NSObject+EnumIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E536A571F6B379F006D06B0 /* NSObject+EnumIterator.swift */; };
+		5E5F42741F48B05E00A6B31C /* ButtonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F42731F48B05E00A6B31C /* ButtonLayout.swift */; };
+		5E5F42781F48C53A00A6B31C /* SingleNPCGeneratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F42771F48C53A00A6B31C /* SingleNPCGeneratorVC.swift */; };
+		5E5F427F1F48D40A00A6B31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F427D1F48D40A00A6B31C /* Main.storyboard */; };
+		5E817DDF1F70C3F300E49466 /* Int+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E817DDE1F70C3F300E49466 /* Int+Custom.swift */; };
+		5E8DA0631F57A60900EBF13F /* UIViewController+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DA0621F57A60900EBF13F /* UIViewController+TextFieldDelegate.swift */; };
+		5EAE15081F58617400323E9F /* CRTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAE15071F58617400323E9F /* CRTextField.swift */; };
+		5ECD79741F55B1BE0041EA0C /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD79731F55B1BE0041EA0C /* AppNavigationController.swift */; };
+		5ED0400E1F4DE0290011995C /* SingleNPCGenerator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED0400D1F4DE0290011995C /* SingleNPCGenerator.storyboard */; };
+		5EDB807B1F5AF28E0068F13A /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB807A1F5AF28E0068F13A /* SelectView.swift */; };
+		5EDB807F1F5AFB240068F13A /* SelectTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB807E1F5AFB240068F13A /* SelectTableView.swift */; };
+		5EDB80811F5AFBB60068F13A /* SelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB80801F5AFBB60068F13A /* SelectTableViewCell.swift */; };
+		5EDB80831F5AFE680068F13A /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB80821F5AFE680068F13A /* PopUpView.swift */; };
+		5EDB80851F5AFE8E0068F13A /* PopUpBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB80841F5AFE8E0068F13A /* PopUpBottomView.swift */; };
+		5EDB80871F5AFED50068F13A /* PopUpTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB80861F5AFED50068F13A /* PopUpTitleView.swift */; };
+		5EDB80891F5B00850068F13A /* UIDevice+Sizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB80881F5B00850068F13A /* UIDevice+Sizing.swift */; };
+		5EDB808B1F5B01080068F13A /* SelectTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB808A1F5B01080068F13A /* SelectTableViewDelegate.swift */; };
+		5EDB808D1F5B06640068F13A /* FieldData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB808C1F5B06640068F13A /* FieldData.swift */; };
+		5EF6E6661F5710AF008EA3AC /* NavigationItem+Setters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF6E6651F5710AF008EA3AC /* NavigationItem+Setters.swift */; };
+		5EF8BD6E1F4C716600F66799 /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8BD6D1F4C716600F66799 /* Color+Theme.swift */; };
+		99F7ED5AC1D3B71EFC2F145C /* Pods_NPCGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD958C0E5FD5E94543C5728 /* Pods_NPCGenerator.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5E4A07321F42769500196FF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5E4A07151F42769500196FF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E4A071C1F42769500196FF0;
-			remoteInfo = NPCGenerator;
-		};
-		5E4A073D1F42769500196FF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5E4A07151F42769500196FF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E4A071C1F42769500196FF0;
-			remoteInfo = NPCGenerator;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		5E4A071D1F42769500196FF0 /* NPCGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPCGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD958C0E5FD5E94543C5728 /* Pods_NPCGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NPCGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D0AA373D0A3729BF29C79A /* Pods-NPCGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPCGenerator.release.xcconfig"; path = "Pods/Target Support Files/Pods-NPCGenerator/Pods-NPCGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		5E25A6F41F50ED6C007ADD0F /* MDCButton+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MDCButton+Custom.swift"; sourceTree = "<group>"; };
+		5E30B24A1F6DBFA900033FFC /* Occupation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Occupation.swift; sourceTree = "<group>"; };
+		5E30B24C1F6DC63400033FFC /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		5E30B24E1F6DD09300033FFC /* Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		5E30B2501F6DD4D800033FFC /* Talent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Talent.swift; sourceTree = "<group>"; };
+		5E30B2521F6DD89F00033FFC /* Mannerism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mannerism.swift; sourceTree = "<group>"; };
+		5E30B2541F6DD9B400033FFC /* Interaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interaction.swift; sourceTree = "<group>"; };
+		5E30B2561F6DDB2600033FFC /* Alignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alignment.swift; sourceTree = "<group>"; };
+		5E30B2581F6DDED200033FFC /* Ideal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ideal.swift; sourceTree = "<group>"; };
+		5E30B25A1F6DDFC400033FFC /* Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bond.swift; sourceTree = "<group>"; };
+		5E30B25C1F6DE17A00033FFC /* Flaw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flaw.swift; sourceTree = "<group>"; };
+		5E30B2601F6DE53500033FFC /* CombatStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombatStats.swift; sourceTree = "<group>"; };
+		5E30B2621F6DE60200033FFC /* AbilityScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbilityScore.swift; sourceTree = "<group>"; };
+		5E30B2641F6DEB2700033FFC /* Gender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		5E39C9021F68D8D900089318 /* DisplayNPC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DisplayNPC.storyboard; sourceTree = "<group>"; };
+		5E39C9051F68D95C00089318 /* DisplayNPCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayNPCVC.swift; sourceTree = "<group>"; };
+		5E3ED0151F47B455004A416E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5E3ED01E1F47BCA1004A416E /* NPCGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPCGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4A07201F42769500196FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E4A07221F42769500196FF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E4A07251F42769500196FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E4A07221F42769500196FF0 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		5E4A07271F42769500196FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E4A072A1F42769500196FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5E4A072C1F42769500196FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E4A07311F42769500196FF0 /* NPCGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPCGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E4A07351F42769500196FF0 /* NPCGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPCGeneratorTests.swift; sourceTree = "<group>"; };
-		5E4A07371F42769500196FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E4A073C1F42769500196FF0 /* NPCGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPCGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E4A07401F42769500196FF0 /* NPCGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPCGeneratorUITests.swift; sourceTree = "<group>"; };
-		5E4A07421F42769500196FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4A072C1F42769500196FF0 /* NPCGenerator.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = NPCGenerator.plist; path = NPCGenerator/NPCGenerator.plist; sourceTree = "<group>"; };
+		5E536A501F6B2FD5006D06B0 /* RandomNPCGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNPCGenerator.swift; sourceTree = "<group>"; };
+		5E536A521F6B3077006D06B0 /* NPC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPC.swift; sourceTree = "<group>"; };
+		5E536A551F6B320E006D06B0 /* Race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		5E536A571F6B379F006D06B0 /* NSObject+EnumIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+EnumIterator.swift"; sourceTree = "<group>"; };
+		5E5F42731F48B05E00A6B31C /* ButtonLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonLayout.swift; sourceTree = "<group>"; };
+		5E5F42771F48C53A00A6B31C /* SingleNPCGeneratorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleNPCGeneratorVC.swift; sourceTree = "<group>"; };
+		5E5F427E1F48D40A00A6B31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E817DDE1F70C3F300E49466 /* Int+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Custom.swift"; sourceTree = "<group>"; };
+		5E8DA0621F57A60900EBF13F /* UIViewController+TextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TextFieldDelegate.swift"; sourceTree = "<group>"; };
+		5EAE15071F58617400323E9F /* CRTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRTextField.swift; sourceTree = "<group>"; };
+		5ECD79731F55B1BE0041EA0C /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		5ED0400D1F4DE0290011995C /* SingleNPCGenerator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SingleNPCGenerator.storyboard; sourceTree = "<group>"; };
+		5EDB807A1F5AF28E0068F13A /* SelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		5EDB807E1F5AFB240068F13A /* SelectTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTableView.swift; sourceTree = "<group>"; };
+		5EDB80801F5AFBB60068F13A /* SelectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTableViewCell.swift; sourceTree = "<group>"; };
+		5EDB80821F5AFE680068F13A /* PopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		5EDB80841F5AFE8E0068F13A /* PopUpBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpBottomView.swift; sourceTree = "<group>"; };
+		5EDB80861F5AFED50068F13A /* PopUpTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpTitleView.swift; sourceTree = "<group>"; };
+		5EDB80881F5B00850068F13A /* UIDevice+Sizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Sizing.swift"; sourceTree = "<group>"; };
+		5EDB808A1F5B01080068F13A /* SelectTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTableViewDelegate.swift; sourceTree = "<group>"; };
+		5EDB808C1F5B06640068F13A /* FieldData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldData.swift; sourceTree = "<group>"; };
+		5EF6E6651F5710AF008EA3AC /* NavigationItem+Setters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavigationItem+Setters.swift"; sourceTree = "<group>"; };
+		5EF8BD6D1F4C716600F66799 /* Color+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
+		DE557C0E6A7971209A00FD3A /* Pods-NPCGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPCGenerator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NPCGenerator/Pods-NPCGenerator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,75 +111,210 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E4A072E1F42769500196FF0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E4A07391F42769500196FF0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				99F7ED5AC1D3B71EFC2F145C /* Pods_NPCGenerator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AE8CC31A189C67F6FADEBC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE557C0E6A7971209A00FD3A /* Pods-NPCGenerator.debug.xcconfig */,
+				39D0AA373D0A3729BF29C79A /* Pods-NPCGenerator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E39C9011F68D8B200089318 /* DisplayNPC */ = {
+			isa = PBXGroup;
+			children = (
+				5E39C9041F68D93500089318 /* Controller */,
+				5E39C9021F68D8D900089318 /* DisplayNPC.storyboard */,
+			);
+			name = DisplayNPC;
+			sourceTree = "<group>";
+		};
+		5E39C9041F68D93500089318 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E39C9051F68D95C00089318 /* DisplayNPCVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5E3ED0121F47B36C004A416E /* App Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E3ED0151F47B455004A416E /* Default-568h@2x.png */,
+				5E4A072C1F42769500196FF0 /* NPCGenerator.plist */,
+			);
+			name = "App Resources";
+			sourceTree = "<group>";
+		};
+		5E3ED01A1F47B90C004A416E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5EF8BD6F1F4C832700F66799 /* Components */,
+				5E5F42721F48B03A00A6B31C /* Models */,
+				5E5F42711F48B03000A6B31C /* Extentions */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		5E3ED01B1F47B915004A416E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5E3ED01D1F47B968004A416E /* Main */,
+				5E5F42701F489D0B00A6B31C /* SingleNPCGenerator */,
+				5E39C9011F68D8B200089318 /* DisplayNPC */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		5E3ED01C1F47B91C004A416E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E4A07271F42769500196FF0 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E3ED01D1F47B968004A416E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5E4A07221F42769500196FF0 /* MainVC.swift */,
+				5E4A07201F42769500196FF0 /* AppDelegate.swift */,
+				5E5F427D1F48D40A00A6B31C /* Main.storyboard */,
+				5E4A07291F42769500196FF0 /* LaunchScreen.storyboard */,
+				5ECD79731F55B1BE0041EA0C /* AppNavigationController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		5E4A07141F42769500196FF0 = {
 			isa = PBXGroup;
 			children = (
+				5E3ED0121F47B36C004A416E /* App Resources */,
 				5E4A071F1F42769500196FF0 /* NPCGenerator */,
-				5E4A07341F42769500196FF0 /* NPCGeneratorTests */,
-				5E4A073F1F42769500196FF0 /* NPCGeneratorUITests */,
-				5E4A071E1F42769500196FF0 /* Products */,
+				5AE8CC31A189C67F6FADEBC6 /* Pods */,
+				960C03CB357B7B0BF9BF109F /* Frameworks */,
+				5E3ED01E1F47BCA1004A416E /* NPCGenerator.app */,
 			);
-			sourceTree = "<group>";
-		};
-		5E4A071E1F42769500196FF0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5E4A071D1F42769500196FF0 /* NPCGenerator.app */,
-				5E4A07311F42769500196FF0 /* NPCGeneratorTests.xctest */,
-				5E4A073C1F42769500196FF0 /* NPCGeneratorUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		5E4A071F1F42769500196FF0 /* NPCGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				5E4A07201F42769500196FF0 /* AppDelegate.swift */,
-				5E4A07221F42769500196FF0 /* ViewController.swift */,
-				5E4A07241F42769500196FF0 /* Main.storyboard */,
-				5E4A07271F42769500196FF0 /* Assets.xcassets */,
-				5E4A07291F42769500196FF0 /* LaunchScreen.storyboard */,
-				5E4A072C1F42769500196FF0 /* Info.plist */,
+				5E3ED01A1F47B90C004A416E /* Shared */,
+				5E3ED01B1F47B915004A416E /* Application */,
+				5E3ED01C1F47B91C004A416E /* Resources */,
 			);
 			path = NPCGenerator;
 			sourceTree = "<group>";
 		};
-		5E4A07341F42769500196FF0 /* NPCGeneratorTests */ = {
+		5E536A541F6B31F8006D06B0 /* NPC */ = {
 			isa = PBXGroup;
 			children = (
-				5E4A07351F42769500196FF0 /* NPCGeneratorTests.swift */,
-				5E4A07371F42769500196FF0 /* Info.plist */,
+				5E536A521F6B3077006D06B0 /* NPC.swift */,
+				5E30B2581F6DDED200033FFC /* Ideal.swift */,
+				5E536A551F6B320E006D06B0 /* Race.swift */,
+				5E30B24A1F6DBFA900033FFC /* Occupation.swift */,
+				5E30B24C1F6DC63400033FFC /* History.swift */,
+				5E30B24E1F6DD09300033FFC /* Appearance.swift */,
+				5E30B2501F6DD4D800033FFC /* Talent.swift */,
+				5E30B2521F6DD89F00033FFC /* Mannerism.swift */,
+				5E30B2541F6DD9B400033FFC /* Interaction.swift */,
+				5E30B2561F6DDB2600033FFC /* Alignment.swift */,
+				5E30B25A1F6DDFC400033FFC /* Bond.swift */,
+				5E30B25C1F6DE17A00033FFC /* Flaw.swift */,
+				5E30B2601F6DE53500033FFC /* CombatStats.swift */,
+				5E30B2621F6DE60200033FFC /* AbilityScore.swift */,
+				5E30B2641F6DEB2700033FFC /* Gender.swift */,
 			);
-			path = NPCGeneratorTests;
+			name = NPC;
 			sourceTree = "<group>";
 		};
-		5E4A073F1F42769500196FF0 /* NPCGeneratorUITests */ = {
+		5E5F42701F489D0B00A6B31C /* SingleNPCGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				5E4A07401F42769500196FF0 /* NPCGeneratorUITests.swift */,
-				5E4A07421F42769500196FF0 /* Info.plist */,
+				5E5F427A1F48C5BC00A6B31C /* Controller */,
+				5ED0400D1F4DE0290011995C /* SingleNPCGenerator.storyboard */,
 			);
-			path = NPCGeneratorUITests;
+			name = SingleNPCGenerator;
+			sourceTree = "<group>";
+		};
+		5E5F42711F48B03000A6B31C /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				5EF8BD6D1F4C716600F66799 /* Color+Theme.swift */,
+				5E25A6F41F50ED6C007ADD0F /* MDCButton+Custom.swift */,
+				5EF6E6651F5710AF008EA3AC /* NavigationItem+Setters.swift */,
+				5E8DA0621F57A60900EBF13F /* UIViewController+TextFieldDelegate.swift */,
+				5EDB80881F5B00850068F13A /* UIDevice+Sizing.swift */,
+				5E536A571F6B379F006D06B0 /* NSObject+EnumIterator.swift */,
+				5E817DDE1F70C3F300E49466 /* Int+Custom.swift */,
+			);
+			name = Extentions;
+			sourceTree = "<group>";
+		};
+		5E5F42721F48B03A00A6B31C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E536A541F6B31F8006D06B0 /* NPC */,
+				5E5F42731F48B05E00A6B31C /* ButtonLayout.swift */,
+				5EDB808C1F5B06640068F13A /* FieldData.swift */,
+				5E536A501F6B2FD5006D06B0 /* RandomNPCGenerator.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5E5F427A1F48C5BC00A6B31C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E5F42771F48C53A00A6B31C /* SingleNPCGeneratorVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5EDB807C1F5AF2E70068F13A /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				5EDB80821F5AFE680068F13A /* PopUpView.swift */,
+				5EDB80841F5AFE8E0068F13A /* PopUpBottomView.swift */,
+				5EDB80861F5AFED50068F13A /* PopUpTitleView.swift */,
+			);
+			name = PopUp;
+			sourceTree = "<group>";
+		};
+		5EDB807D1F5AFB090068F13A /* MultipleSelect */ = {
+			isa = PBXGroup;
+			children = (
+				5EDB807A1F5AF28E0068F13A /* SelectView.swift */,
+				5EDB807E1F5AFB240068F13A /* SelectTableView.swift */,
+				5EDB80801F5AFBB60068F13A /* SelectTableViewCell.swift */,
+				5EDB808A1F5B01080068F13A /* SelectTableViewDelegate.swift */,
+			);
+			name = MultipleSelect;
+			sourceTree = "<group>";
+		};
+		5EF8BD6F1F4C832700F66799 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5EDB807D1F5AFB090068F13A /* MultipleSelect */,
+				5EDB807C1F5AF2E70068F13A /* PopUp */,
+				5EAE15071F58617400323E9F /* CRTextField.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		960C03CB357B7B0BF9BF109F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AD958C0E5FD5E94543C5728 /* Pods_NPCGenerator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E4A07451F42769500196FF0 /* Build configuration list for PBXNativeTarget "NPCGenerator" */;
 			buildPhases = (
+				9A4E01D731B395E9CB5CCD72 /* [CP] Check Pods Manifest.lock */,
 				5E4A07191F42769500196FF0 /* Sources */,
 				5E4A071A1F42769500196FF0 /* Frameworks */,
 				5E4A071B1F42769500196FF0 /* Resources */,
+				AC621E3E7A113B40AACAFAB6 /* [CP] Embed Pods Frameworks */,
+				A477003D00A051CEF9D01EAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,44 +337,8 @@
 			);
 			name = NPCGenerator;
 			productName = NPCGenerator;
-			productReference = 5E4A071D1F42769500196FF0 /* NPCGenerator.app */;
+			productReference = 5E3ED01E1F47BCA1004A416E /* NPCGenerator.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5E4A07301F42769500196FF0 /* NPCGeneratorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E4A07481F42769500196FF0 /* Build configuration list for PBXNativeTarget "NPCGeneratorTests" */;
-			buildPhases = (
-				5E4A072D1F42769500196FF0 /* Sources */,
-				5E4A072E1F42769500196FF0 /* Frameworks */,
-				5E4A072F1F42769500196FF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5E4A07331F42769500196FF0 /* PBXTargetDependency */,
-			);
-			name = NPCGeneratorTests;
-			productName = NPCGeneratorTests;
-			productReference = 5E4A07311F42769500196FF0 /* NPCGeneratorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5E4A073B1F42769500196FF0 /* NPCGeneratorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E4A074B1F42769500196FF0 /* Build configuration list for PBXNativeTarget "NPCGeneratorUITests" */;
-			buildPhases = (
-				5E4A07381F42769500196FF0 /* Sources */,
-				5E4A07391F42769500196FF0 /* Frameworks */,
-				5E4A073A1F42769500196FF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5E4A073E1F42769500196FF0 /* PBXTargetDependency */,
-			);
-			name = NPCGeneratorUITests;
-			productName = NPCGeneratorUITests;
-			productReference = 5E4A073C1F42769500196FF0 /* NPCGeneratorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -188,25 +347,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Christian Riboldi";
 				TargetAttributes = {
 					5E4A071C1F42769500196FF0 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = G5P88J4SPW;
+						DevelopmentTeam = TCKPN33EED;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
-					};
-					5E4A07301F42769500196FF0 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = G5P88J4SPW;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 5E4A071C1F42769500196FF0;
-					};
-					5E4A073B1F42769500196FF0 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = G5P88J4SPW;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 5E4A071C1F42769500196FF0;
 					};
 				};
 			};
@@ -219,13 +367,11 @@
 				Base,
 			);
 			mainGroup = 5E4A07141F42769500196FF0;
-			productRefGroup = 5E4A071E1F42769500196FF0 /* Products */;
+			productRefGroup = 5E4A07141F42769500196FF0;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5E4A071C1F42769500196FF0 /* NPCGenerator */,
-				5E4A07301F42769500196FF0 /* NPCGeneratorTests */,
-				5E4A073B1F42769500196FF0 /* NPCGeneratorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,83 +382,145 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E4A072B1F42769500196FF0 /* LaunchScreen.storyboard in Resources */,
+				5E5F427F1F48D40A00A6B31C /* Main.storyboard in Resources */,
+				5ED0400E1F4DE0290011995C /* SingleNPCGenerator.storyboard in Resources */,
+				5E39C9031F68D8D900089318 /* DisplayNPC.storyboard in Resources */,
+				5E3ED0161F47B455004A416E /* Default-568h@2x.png in Resources */,
 				5E4A07281F42769500196FF0 /* Assets.xcassets in Resources */,
-				5E4A07261F42769500196FF0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E4A072F1F42769500196FF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E4A073A1F42769500196FF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A4E01D731B395E9CB5CCD72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NPCGenerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A477003D00A051CEF9D01EAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NPCGenerator/Pods-NPCGenerator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC621E3E7A113B40AACAFAB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NPCGenerator/Pods-NPCGenerator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NPCGenerator/Pods-NPCGenerator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E4A07191F42769500196FF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4A07231F42769500196FF0 /* ViewController.swift in Sources */,
+				5EDB80871F5AFED50068F13A /* PopUpTitleView.swift in Sources */,
+				5E30B24F1F6DD09300033FFC /* Appearance.swift in Sources */,
+				5E30B2571F6DDB2600033FFC /* Alignment.swift in Sources */,
+				5E30B2631F6DE60200033FFC /* AbilityScore.swift in Sources */,
+				5E30B24B1F6DBFA900033FFC /* Occupation.swift in Sources */,
+				5EDB80891F5B00850068F13A /* UIDevice+Sizing.swift in Sources */,
+				5E30B2591F6DDED200033FFC /* Ideal.swift in Sources */,
+				5E30B2611F6DE53500033FFC /* CombatStats.swift in Sources */,
+				5E536A561F6B320E006D06B0 /* Race.swift in Sources */,
+				5E25A6F51F50ED6C007ADD0F /* MDCButton+Custom.swift in Sources */,
+				5E30B2551F6DD9B400033FFC /* Interaction.swift in Sources */,
+				5EF8BD6E1F4C716600F66799 /* Color+Theme.swift in Sources */,
+				5E536A511F6B2FD5006D06B0 /* RandomNPCGenerator.swift in Sources */,
+				5E5F42741F48B05E00A6B31C /* ButtonLayout.swift in Sources */,
+				5EAE15081F58617400323E9F /* CRTextField.swift in Sources */,
+				5E536A581F6B379F006D06B0 /* NSObject+EnumIterator.swift in Sources */,
+				5E30B25B1F6DDFC400033FFC /* Bond.swift in Sources */,
+				5E30B24D1F6DC63400033FFC /* History.swift in Sources */,
+				5E536A531F6B3077006D06B0 /* NPC.swift in Sources */,
+				5E30B25D1F6DE17A00033FFC /* Flaw.swift in Sources */,
+				5E5F42781F48C53A00A6B31C /* SingleNPCGeneratorVC.swift in Sources */,
+				5E30B2531F6DD89F00033FFC /* Mannerism.swift in Sources */,
+				5EDB80851F5AFE8E0068F13A /* PopUpBottomView.swift in Sources */,
+				5E30B2651F6DEB2700033FFC /* Gender.swift in Sources */,
+				5E817DDF1F70C3F300E49466 /* Int+Custom.swift in Sources */,
+				5EDB807B1F5AF28E0068F13A /* SelectView.swift in Sources */,
+				5E8DA0631F57A60900EBF13F /* UIViewController+TextFieldDelegate.swift in Sources */,
+				5EDB80831F5AFE680068F13A /* PopUpView.swift in Sources */,
+				5EDB808D1F5B06640068F13A /* FieldData.swift in Sources */,
+				5EF6E6661F5710AF008EA3AC /* NavigationItem+Setters.swift in Sources */,
+				5E39C9061F68D95C00089318 /* DisplayNPCVC.swift in Sources */,
+				5ECD79741F55B1BE0041EA0C /* AppNavigationController.swift in Sources */,
+				5E4A07231F42769500196FF0 /* MainVC.swift in Sources */,
 				5E4A07211F42769500196FF0 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E4A072D1F42769500196FF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E4A07361F42769500196FF0 /* NPCGeneratorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E4A07381F42769500196FF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E4A07411F42769500196FF0 /* NPCGeneratorUITests.swift in Sources */,
+				5EDB80811F5AFBB60068F13A /* SelectTableViewCell.swift in Sources */,
+				5EDB808B1F5B01080068F13A /* SelectTableViewDelegate.swift in Sources */,
+				5EDB807F1F5AFB240068F13A /* SelectTableView.swift in Sources */,
+				5E30B2511F6DD4D800033FFC /* Talent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5E4A07331F42769500196FF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5E4A071C1F42769500196FF0 /* NPCGenerator */;
-			targetProxy = 5E4A07321F42769500196FF0 /* PBXContainerItemProxy */;
-		};
-		5E4A073E1F42769500196FF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5E4A071C1F42769500196FF0 /* NPCGenerator */;
-			targetProxy = 5E4A073D1F42769500196FF0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		5E4A07241F42769500196FF0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E4A07251F42769500196FF0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5E4A07291F42769500196FF0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5E4A072A1F42769500196FF0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5E5F427D1F48D40A00A6B31C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E5F427E1F48D40A00A6B31C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -328,7 +536,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -336,7 +546,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -379,7 +593,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -387,7 +603,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -415,85 +635,37 @@
 		};
 		5E4A07461F42769500196FF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE557C0E6A7971209A00FD3A /* Pods-NPCGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G5P88J4SPW;
-				INFOPLIST_FILE = NPCGenerator/Info.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TCKPN33EED;
+				INFOPLIST_FILE = "$(SRCROOT)/NPCGenerator/NPCGenerator.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = christianriboldi.NPCGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5E4A07471F42769500196FF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D0AA373D0A3729BF29C79A /* Pods-NPCGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G5P88J4SPW;
-				INFOPLIST_FILE = NPCGenerator/Info.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TCKPN33EED;
+				INFOPLIST_FILE = "$(SRCROOT)/NPCGenerator/NPCGenerator.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = christianriboldi.NPCGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		5E4A07491F42769500196FF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = G5P88J4SPW;
-				INFOPLIST_FILE = NPCGeneratorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = christianriboldi.NPCGeneratorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPCGenerator.app/NPCGenerator";
-			};
-			name = Debug;
-		};
-		5E4A074A1F42769500196FF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = G5P88J4SPW;
-				INFOPLIST_FILE = NPCGeneratorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = christianriboldi.NPCGeneratorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPCGenerator.app/NPCGenerator";
-			};
-			name = Release;
-		};
-		5E4A074C1F42769500196FF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = G5P88J4SPW;
-				INFOPLIST_FILE = NPCGeneratorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = christianriboldi.NPCGeneratorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = NPCGenerator;
-			};
-			name = Debug;
-		};
-		5E4A074D1F42769500196FF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = G5P88J4SPW;
-				INFOPLIST_FILE = NPCGeneratorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = christianriboldi.NPCGeneratorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = NPCGenerator;
 			};
 			name = Release;
 		};
@@ -516,22 +688,7 @@
 				5E4A07471F42769500196FF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		5E4A07481F42769500196FF0 /* Build configuration list for PBXNativeTarget "NPCGeneratorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E4A07491F42769500196FF0 /* Debug */,
-				5E4A074A1F42769500196FF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		5E4A074B1F42769500196FF0 /* Build configuration list for PBXNativeTarget "NPCGeneratorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E4A074C1F42769500196FF0 /* Debug */,
-				5E4A074D1F42769500196FF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
